@@ -1,16 +1,16 @@
 Package.describe({
-  name: "themeteorchef:bert",
-  version: "2.2.2",
+  name: "jessedev:bert",
+  version: "3.0.0",
   summary: "A client side, multi-style alerts system for Meteor.",
-  git: "http://github.com/themeteorchef/bert",
+  git: "http://github.com/Jessedev1/bert",
   documentation: "README.md",
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom("1.2.0.2");
+  api.versionsFrom("3.0");
 
   api.use(
-    ["ecmascript", "templating", "session", "jquery", "fourseven:scss@4.12.0"],
+    ["ecmascript@0.16.10", "templating@1.4.4", "session", "jquery@3.0.2", "fourseven:scss@4.17.0-rc.0"],
     "client"
   );
 
@@ -32,6 +32,6 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use(["tinytest", "session", "jquery"]);
-  api.use("themeteorchef:bert");
+  api.use("jessedev:bert");
   api.addFiles("tests/client.js", "client");
 });

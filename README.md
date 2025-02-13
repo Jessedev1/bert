@@ -18,7 +18,7 @@ Bert is a client side, multi-style alerts system for Meteor.
 To get Bert into your app, just run the following command from within your project's directory:
 
 ```
-meteor add themeteorchef:bert
+meteor add jessedev:bert
 ```
 
 #### Upgrade Warning
@@ -124,7 +124,7 @@ Bert was designed to be easily customized to fit your application's styles. The 
 </template>
 ```
 
-Nice and simple! All of [the CSS](https://github.com/themeteorchef/bert/tree/master/stylesheets/bert.scss) is easily overridden, too. Dress Bert up!
+Nice and simple! All of [the CSS](https://github.com/Jessedev1/bert/tree/master/stylesheets/bert.scss) is easily overridden, too. Dress Bert up!
 
 **Note**: the Spacebars helper for outputting Bert `{{{alert.message}}}` makes use of Spacebar's triple mustache convention to prevent escaping of HTML characters. This means you can pass any HTML to Bert and he'll render it inside the alert. For example:
 
@@ -163,10 +163,10 @@ The value of `type` simply gets added to Bert as a CSS class, so we can tweak th
 Bert comes with a suite of TinyTest-based tests to ensure that all of your alerts make it to the client as intended. To run the tests, open up your terminal and type:
 
 ```
-meteor test-packages themeteorchef:bert
+meteor test-packages jessedev:bert
 ```
 
-Pop open your browser http://localhost:3000. Verify tests are passing. **Note**: if your app is already running on `http://localhost:3000`, you can run tests separately by running `meteor test-packages themeteorchef:bert --port 3001`.
+Pop open your browser http://localhost:3000. Verify tests are passing. **Note**: if your app is already running on `http://localhost:3000`, you can run tests separately by running `meteor test-packages jessedev:bert --port 3001`.
 
 ![](https://tmc-post-content.s3.amazonaws.com/Screen-Shot-2015-10-14-12-00-57.png)
 
