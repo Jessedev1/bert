@@ -1,6 +1,6 @@
 Package.describe({
   name: "jessedev:bert",
-  version: "3.0.0",
+  version: "3.0.1",
   summary: "A client side, multi-style alerts system for Meteor.",
   git: "http://github.com/Jessedev1/bert",
   documentation: "README.md",
