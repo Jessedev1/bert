@@ -10,7 +10,7 @@ Package.onUse(function (api) {
   api.versionsFrom("3.0");
 
   api.use(
-    ["ecmascript@0.16.10", "templating@1.4.4", "session", "jquery@3.0.2", "fourseven:scss@4.17.0-rc.0"],
+    ["ecmascript@0.16.10", "templating@1.4.4", "session", "jquery@3.0.2"],
     "client"
   );
 
@@ -19,9 +19,7 @@ Package.onUse(function (api) {
       "templates/bert-alert.html",
       "templates/bert-alert.js",
       "templates/body.html",
-      "stylesheets/colors.scss",
-      "stylesheets/flexbox.scss",
-      "stylesheets/bert.scss",
+      "stylesheets/bert.css",
       "bert.js",
     ],
     "client"

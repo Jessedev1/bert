@@ -24,7 +24,6 @@ ecmascript-runtime-server@0.11.1
 ejson@1.1.4
 facts-base@1.0.2
 fetch@0.1.5
-fourseven:scss@4.17.0-rc.0
 geojson-utils@1.0.12
 html-tools@2.0.0
 htmljs@2.0.1

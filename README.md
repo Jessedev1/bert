@@ -124,7 +124,7 @@ Bert was designed to be easily customized to fit your application's styles. The 
 </template>
 ```
 
-Nice and simple! All of [the CSS](https://github.com/Jessedev1/bert/tree/master/stylesheets/bert.scss) is easily overridden, too. Dress Bert up!
+Nice and simple! All of [the CSS](https://github.com/Jessedev1/bert/tree/master/stylesheets/bert.css) is easily overridden, too. Dress Bert up!
 
 **Note**: the Spacebars helper for outputting Bert `{{{alert.message}}}` makes use of Spacebar's triple mustache convention to prevent escaping of HTML characters. This means you can pass any HTML to Bert and he'll render it inside the alert. For example:
 
